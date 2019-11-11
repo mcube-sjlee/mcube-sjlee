@@ -14,7 +14,7 @@ titles:
   zh-Hant : &ZH_HANT  關於
   zh-TW   : *ZH_HANT
   zh-HK   : *ZH_HANT
-  ko      : &KO       소개
+  ko      : &KO       About
   ko-KR   : *KO
   fr      : &KO       À propos
   fr-BE   : *FR
@@ -34,9 +34,9 @@ key: page-about
 - 문의 : helmet97@gmail.com
 
 <!-- ```javascript
-(() => console.log('Hello, World!'))(); -->
+(() => console.log('Hello, World!'))(); 
 ```
-
+-->
 ## Skill
 
 - C#
@@ -49,6 +49,6 @@ key: page-about
 ## Project
 
 - Dital locker box
-- Multi-Display (Parrax barrier 3d display)
 - lots of Mobile app
 - Smart TV app 
+- Multi-Display (Parrax barrier 3d display)
