@@ -35,7 +35,7 @@ author:
   type      : # "person" (default), "organization"
   name      : Helmet
   url       :
-  avatar    : # path or url of avatar image (square)
+  avatar    : https://avatars0.githubusercontent.com/u/mcubernd # path or url of avatar image (square)
   bio       : # I am an amazing person.
   email     : helmet97@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
@@ -106,21 +106,22 @@ sources: # bootcdn (default), unpkg
 ## => Sharing
 ##############################
 sharing:
-  provider: false # false (default), "addtoany", "addthis", "custom"
+  provider: addthis  # false (default), "addtoany", "addthis", "custom"
 
   ## AddThis
   addthis:
-    id: # AddThis pubid, e.g. ra-5xxxxxxxxxxx
-
+    id: ra-5ddea4176c83d62e  # AddThis pubid, e.g. ra-5xxxxxxxxxxx
+    toolbox:
+        id: 7n37
 
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: disqus # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
-    shortname: # the Disqus shortname for the site
+    shortname: mcubernd # the Disqus shortname for the site
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
