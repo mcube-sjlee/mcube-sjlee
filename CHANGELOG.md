@@ -2,7 +2,7 @@
 
 ## 2.2.4 (2018-12-10)
 
-### Enhancements
+## Enhancements
 
 - Swiper component support mouse move
 - Add lightbox (modal image gallery)
